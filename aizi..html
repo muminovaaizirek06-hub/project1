@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <title>Билим Сайты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #219150;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📚 Билим берүү сайты</h1>
+    <p>Программалоону үйрөнөбүз</p>
+</header>
+
+<nav>
+    <a href="#">Башкы бет</a>
+    <a href="#">Сабактар</a>
+    <a href="#">Байланыш</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <h2>HTML деген эмне?</h2>
+        <p>HTML — бул веб-баракчаларды түзүү үчүн колдонулган тил.</p>
+    </div>
+
+    <div class="card">
+        <h2>CSS деген эмне?</h2>
+        <p>CSS — бул веб-сайтты кооздоо үчүн колдонулат.</p>
+    </div>
+
+    <div class="card">
+        <h2>JavaScript деген эмне?</h2>
+        <p>JavaScript — бул сайтка кыймыл жана интерактив кошот.</p>
+        <button onclick="showMessage()">Көбүрөөк билүү</button>
+    </div>
+
+</div>
+
+<script>
+    function showMessage() {
+        alert("JavaScript аркылуу сайт интерактивдүү болот!");
+    }
+</script>
+
+</body>
+</html>
